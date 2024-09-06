@@ -1,14 +1,14 @@
-.container-content2{
+.container2{
     margin-top: 95px;
     background-color: #F4F4F3;
-    height: 250px;
+.content{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    max-width: 1024px;
+    margin-inline: auto;
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
-    //max-width: 1024px;
-    //margin: 0 auto;
-
-
+    justify-content:space-between;
     .conex{
         display: flex;
         font-weight: bold;
@@ -18,7 +18,6 @@
 
         .conex-text{
             font-size: 12px;
-            margin-top: 3px;
             font-weight: normal;
             color: #6F6E6E;
             display: inline-block; /* Garante que o span tenha seu próprio tamanho */
@@ -96,6 +95,7 @@
 
 
 
+}
     
 
    

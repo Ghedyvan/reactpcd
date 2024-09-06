@@ -5,7 +5,7 @@ function Header(){
     return(
         <header>
         <div className='buttons'>
-          <div className='flex gap-20'>
+          <div className='flex gap-20 logo'>
             <img src='src\assets\temp.png' height={40} width={40}></img>
             <p>EmpregaPCD</p>
           </div>

@@ -2,8 +2,10 @@ import '../scss/footer.scss';
 
 function Footer(){
     return(
-        <div className='container-footer'>
+        <div className='containerfooter'>
+            <div className="content">
             <p>Copyright © 2024 EmpregaPCD. Todos os direitos reservados.</p>
+            </div>
         </div>
     )
 }

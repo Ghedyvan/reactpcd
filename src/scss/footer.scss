@@ -1,23 +1,12 @@
-.container-footer{
-    background-color: #4F4F4F;
+.containerfooter {
+  background-color: #4f4f4f;
+  width: 100%;
+  position: relative;
+  .content {
+    display: flex  ;
     color: white;
-    padding: 20px;
-    position: relative;
-
-    p {
-        padding-left: 50px;
-        max-width: 650px;
-        margin: 0;
-        padding-top: 10px;
-        position: relative;
-
-        &::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 50px; // Alinha com o padding-left do texto
-            width: calc(100% - 50px); // Ajusta a largura para não ultrapassar o padding
-            border-top: 1px solid white; // Linha branca fina
-        }
-    }
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }

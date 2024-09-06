@@ -2,15 +2,14 @@ import '../scss/content4.scss';
 
 function Content4(){
     return(
-        <div className='container-content4'>
-
+        <div className='container4'>
+            <div className="content">
             <div className='emprego-ideal'>
                 <h2>Encontre seu emprego ideal conosco</h2>
                 <p>Oferecemos serviços como correspondência de empregos, criação de currículos e acesso a vagas remotas e acessíveis, focados em proporcionar oportunidades inclusivas que valorizam suas habilidades.</p>
             </div>
 
             <div className='blocos'>
-
                 <div className='cubo1'>
                     <img src='src\assets\cubo.png' className='img-cubo' height={30} width={28}></img>
                     <h3>Vagas alinhadas ao seu perfil</h3>
@@ -29,6 +28,7 @@ function Content4(){
                     <p>Explore oportunidades de trabalho remoto que oferecem flexibilidade e acessibilidade, permitindo que você trabalhe de qualquer lugar.</p>
                 </div>
                 
+            </div>
             </div>
 
         </div>

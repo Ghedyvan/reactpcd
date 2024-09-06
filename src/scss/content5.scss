@@ -1,29 +1,24 @@
 .container-content5{
-    padding-top: 40px;
-    background-color: #F4F4F3;
-    height: 400px;
-
     .container-in{
         display: flex;
-        height: 370px;
         flex-direction: column;
         background-color: white;
         text-align: center;
-
+        padding-top: 100px;
+        padding-bottom: 100px;
+        margin-inline: auto;
+        width: 100%;
+        align-items: center;
         h2{
-            //max-width: 100%;
-            margin-top: 90px;
             color: #4A90E2;
         }
 
         p{ 
-            margin-top: 2px;
+            margin-top: 8px;
             margin-bottom: 3px;
+            max-width: 500px;
         }
 
-        .paragrafo2{
-            margin-top: 1px;
-        }
 
         .btnCadastro{
             cursor: pointer;
