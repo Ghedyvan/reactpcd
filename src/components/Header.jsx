@@ -6,8 +6,8 @@ function Header(){
         <header>
         <div className='buttons'>
           <div className='flex gap-20 logo'>
-            <img src='src\assets\temp.png' height={40} width={40}></img>
-            <p>EmpregaPCD</p>
+            <img src='src\assets\logo.png' height={40} width={40} style={{ borderRadius: '15%' }}></img>
+            <p>AccessAble</p>
           </div>
           <p>Sobre nós</p>
           <p>Serviços</p>

@@ -2,7 +2,7 @@ import "../scss/content3.scss";
 
 function Content3() {
   return (
-    <div className="cab">
+    <div className="content-3">
       <div className="escolher-plataforma">
         <h2>Por que escolher nossa plataforma ?</h2>
         <p className="paragrafo1">

@@ -4,7 +4,7 @@ function Footer(){
     return(
         <div className='containerfooter'>
             <div className="content">
-            <p>Copyright © 2024 EmpregaPCD. Todos os direitos reservados.</p>
+            <p>Copyright © 2024 AccessAble. Todos os direitos reservados.</p>
             </div>
         </div>
     )

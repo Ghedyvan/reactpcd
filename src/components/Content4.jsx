@@ -10,6 +10,7 @@ function Content4(){
             </div>
 
             <div className='blocos'>
+                
                 <div className='cubo1'>
                     <img src='src\assets\cubo.png' className='img-cubo' height={30} width={28}></img>
                     <h3>Vagas alinhadas ao seu perfil</h3>

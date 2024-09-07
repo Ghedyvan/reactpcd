@@ -6,6 +6,7 @@
     padding-bottom: 80px;
     width: 100%;
     margin-inline: auto;
+    //margin-left: 160px;
     display: flex;
     flex-direction: column;
     max-width: 1024px;
@@ -24,18 +25,22 @@
     }
 
     .blocos {
-      margin-top: 80px;
+      margin-top: 90px;
       display: flex;
-      justify-content: space-around;
-    //   .cubo1 {
-    //     max-width: 420px;
-    //   }
-    //   .cubo2 {
-    //     max-width: 400px;
-    //   }
-    //   .cubo3 {
-    //     max-width: 400px;
-    //   }
+      justify-content:space-between;
+      h3{
+        margin-top: 10px;
+      }
+      p{
+        margin-top: 10px;
+        width: 370px;
+      }
+      .cubo1{
+        margin-right: 20px;
+      }
+      .cubo2{
+        margin-right: 20px;
+      }
     }
   }
 }
